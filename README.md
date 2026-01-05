@@ -1,4 +1,5 @@
 Summary of Changes
+
 Duplicate Handling: Added logic to check for existing records when trying to create new ones.
 
 User Update (Task 2): Refactored the Update method to validate inputs at the very beginning. This ensures the update fails fast if the Email or Name is null, preventing a partial state where some fields are updated but others aren't. Also updated the exception text to include the email.
